@@ -54,10 +54,10 @@ while True:
             print("Operação falhou! O valor informado é inválido.")
 
     elif opcao == "3":
-        print("\n•••••••••••••••• EXTRATO ••••••••••••••••")
+        print("\n•••••••••••••••• EXTRATO ••••••••••••••••\n")
         print("Não foram realizadas movimentações." if not extrato else extrato)
-        print(f"\nSaldo: R$ {saldo:.2f}")
-        print("•••••••••••••••••••••••••••••••••••••••••••")
+        print(f"\nSaldo: R$ {saldo:.2f}\n")
+        print("•••••••••••••••••••••••••••••••••••••••••")
 
     elif opcao == "0":
         break
